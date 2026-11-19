@@ -133,7 +133,7 @@
   <main class="container">
     <header>
       <h1>Política de Privacidade</h1>
-      <p class="updated-date">Última atualização: 14 de novembro de 2026</p>
+      <p class="updated-date">Última atualização: 18 de novembro de 2026</p>
     </header>
 
     <section>
@@ -193,48 +193,64 @@
     </section>
 
     <section>
-      <h2>4. Armazenamento e Segurança dos Dados</h2>
+      <h2>4. Permissões Sensíveis e Funcionalidades Específicas (Block Apps)</h2>
+      <p>
+        Para o funcionamento do aplicativo <strong>Block Apps</strong>, são solicitadas permissões avançadas do sistema Android, utilizadas estritamente de forma local no dispositivo:
+      </p>
+      <ul>
+        <li>
+          <strong>API de Acessibilidade (AccessibilityService):</strong> Utilizada exclusivamente para detectar quando um aplicativo previamente selecionado pelo administrador é aberto na tela (exibindo o bloqueio por PIN) e para proteger o aplicativo contra desinstalação ou desativação não autorizada nas configurações do sistema. Nenhum dado pessoal, senha, mensagem ou conteúdo digitado na tela é coletado, gravado ou transmitido para servidores externos.
+        </li>
+        <li>
+          <strong>Administrador do Dispositivo (Device Admin):</strong> Utilizado unicamente para impedir a desinstalação acidental ou não autorizada do aplicativo sem o PIN definido pelo administrador.
+        </li>
+        <li>
+          <strong>Consulta de Aplicativos Instalados (QUERY_ALL_PACKAGES):</strong> Utilizada apenas para listar localmente os aplicativos instalados no aparelho, permitindo que o usuário escolha quais deseja proteger. Nenhuma lista de aplicativos é enviada para fora do dispositivo.
+        </li>
+      </ul>
+      <div class="highlight-box">
+        No Block Apps, o PIN de administrador é protegido localmente com criptografia (SHA-256) e nenhum dado de uso é transmitido para a internet.
+      </div>
+    </section>
+
+    <section>
+      <h2>5. Armazenamento e Segurança dos Dados</h2>
       <p>
         Adotamos medidas técnicas e administrativas adequadas para proteger as informações contra acesso não autorizado, alteração, divulgação ou destruição. Sempre que possível, os dados processados pelas ferramentas dos nossos aplicativos permanecem armazenados localmente no próprio dispositivo do usuário e não são enviados para servidores externos.
       </p>
     </section>
 
     <section>
-      <h2>5. Privacidade de Crianças</h2>
+      <h2>6. Privacidade de Crianças</h2>
       <p>
         Nossos aplicativos não são direcionados a menores de 13 anos (ou idade mínima equivalente conforme a legislação local). Não coletamos intencionalmente informações pessoalmente identificáveis de crianças. Caso você seja pai, mãe ou responsável e acredite que seu filho nos forneceu dados pessoais, entre em contato conosco para que possamos remover imediatamente tais informações.
       </p>
     </section>
 
     <section>
-      <h2>6. Direitos do Usuário (LGPD)</h2>
+      <h2>7. Direitos do Usuário (LGPD)</h2>
       <p>
         Em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você tem o direito de solicitar confirmação sobre o tratamento de seus dados, acesso, correção ou exclusão de eventuais informações pessoais enviadas diretamente a nós, bem como revogar permissões concedidas diretamente nas configurações do seu dispositivo Android.
       </p>
     </section>
 
     <section>
-      <h2>7. Alterações nesta Política de Privacidade</h2>
+      <h2>8. Alterações nesta Política de Privacidade</h2>
       <p>
         Podemos atualizar esta Política de Privacidade periodicamente para refletir melhorias nos aplicativos ou alterações legais. Recomendamos que você revise esta página regularmente. As alterações entram em vigor imediatamente após sua publicação nesta página.
       </p>
     </section>
 
     <section>
-      <h2>8. Contato</h2>
+      <h2>9. Contato</h2>
       <p>
         Se você tiver dúvidas, sugestões ou solicitações relacionadas a esta Política de Privacidade ou aos aplicativos da <strong>FP Dev Studio</strong>, entre em contato conosco:
       </p>
       <div class="contact-card">
         <p><strong>Desenvolvedor:</strong> FP Dev Studio (Fabrício Portugal)</p>
-        <p><strong>E-mail de contato:</strong> <a href="mailto:fpdevstudio@gmail.com">fpdevstudio@gmail.com</a></p>
+        <p><strong>E-mail de suporte:</strong> <a href="mailto:fpdevstudio@gmail.com">fpdevstudio@gmail.com</a></p>
       </div>
     </section>
 
     <footer>
-      &copy; 2026 FP Dev Studio. Todos os direitos reservados.
-    </footer>
-  </main>
-
-</body>
-</html>
+      <p>&copy; 2026 FP Dev Studio. Todos os direitos reservados.</p>
